@@ -15,7 +15,7 @@ Once deployed, you can view the live site here:
 - `publications.html` – List of publications
 - `cv.html` – Downloadable CV
 - `contact.html` – Contact information
-- `/assets/cv.pdf` – Your downloadable CV
+- `My CV 2026.pdf` – Your downloadable CV
 
 ## How to Deploy to GitHub Pages
 
