@@ -16,17 +16,162 @@
     <a href="cv.html">CV</a>
     <a href="contact.html">Contact</a>
   </nav>
-  <main class="max-w-4xl mx-auto p-6">
-    <h1 class="text-3xl font-bold mb-4">Research & Projects</h1>
-    
-<ul class="list-disc ml-6 space-y-2">
-  <li>Domain Shift in Chest X-ray Imaging</li>
-  <li>Multi-task Learning for Medical AI</li>
-  <li>AI Literacy Training for 2,700 Teachers in Jigawa</li>
-</ul>
 
+  <main class="max-w-5xl mx-auto p-6 mt-6">
+    <div class="border-b pb-4 mb-8">
+      <h1 class="text-3xl font-bold text-gray-900">Research & Projects</h1>
+      <p class="text-gray-600 mt-2">A compilation of my academic research and open-source software contributions in Artificial Intelligence, Computer Vision, and community empowerment.</p>
+    </div>
+    
+    <!-- Section 1: Core Research Focus -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-900 mb-6">Core Research Focus</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- Project 1 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="px-2 py-0.5 text-xs font-semibold bg-blue-50 text-blue-800 rounded-full">Medical Imaging</span>
+              <span class="px-2 py-0.5 text-xs font-semibold bg-purple-50 text-purple-800 rounded-full">Domain Adaptation</span>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Domain Shift in Chest X-ray Imaging</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4">
+              Addresses the challenges of domain shift and cross-population discrepancies in medical image classification. Using deep supervised domain adaptation and adversarial training (such as Supervised Adversarial Domain Adaptation), this project aims to mitigate the performance drop of classification models when applied to datasets from new clinical settings or underrepresented populations.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-50 mt-4">
+            <a href="publications.html" class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-1">
+              View Publications &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="px-2 py-0.5 text-xs font-semibold bg-blue-50 text-blue-800 rounded-full">Multi-task Learning</span>
+              <span class="px-2 py-0.5 text-xs font-semibold bg-green-50 text-green-800 rounded-full">Medical AI Fairness</span>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Multi-task Learning for Medical AI</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4">
+              Investigates multi-task deep learning architectures (like FairCXRnet) to solve multiple clinical tasks simultaneously (e.g., detecting multiple thoracic diseases from chest X-rays). This approach helps models leverage shared feature representations, improving generalization and fairness, especially in resource-constrained environments.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-50 mt-4">
+            <a href="publications.html" class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-1">
+              View Publications &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 flex flex-col justify-between md:col-span-2">
+          <div>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="px-2 py-0.5 text-xs font-semibold bg-indigo-50 text-indigo-800 rounded-full">EdTech</span>
+              <span class="px-2 py-0.5 text-xs font-semibold bg-yellow-50 text-yellow-800 rounded-full">Community Engagement</span>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">AI Literacy Training for 2,700 Teachers in Jigawa</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4">
+              A capacity-building community initiative to train 2,700 public school teachers in Jigawa State, Nigeria on AI literacy, digital pedagogy, and basic computing tools. Led under the CRAI AI Research Lab, this project aims to bridge the digital divide and empower educators to leverage modern technology in their classrooms.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 2: Open Source & Engineering Projects -->
+    <section>
+      <h2 class="text-2xl font-semibold text-blue-900 mb-6">Open Source & Engineering Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- Project 4 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="px-2 py-0.5 text-xs font-semibold bg-blue-50 text-blue-800 rounded-full">Vision-Language Model</span>
+              <span class="px-2 py-0.5 text-xs font-semibold bg-pink-50 text-pink-800 rounded-full">MedGemma</span>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">NaijaCXR-VLM</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4">
+              A specialized vision-language model (VLM) based on MedGemma for interpreting chest X-ray images. Fine-tuned using Parameter-Efficient Fine-Tuning (PEFT) and adversarial domain adaptation on both the NaijaCXR and MIMIC-CXR datasets to generate high-quality diagnostic reports.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-50 mt-4">
+            <a href="https://github.com/El-amin/NaijaCXR-VLM" target="_blank" class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-1">
+              View Repository &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="px-2 py-0.5 text-xs font-semibold bg-indigo-50 text-indigo-800 rounded-full">NLP</span>
+              <span class="px-2 py-0.5 text-xs font-semibold bg-yellow-50 text-yellow-800 rounded-full">BERT</span>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">HauwBert</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4">
+              A fine-tuned multilingual BERT (mBERT) transformer model optimized for aspect-based sentiment analysis of Hausa-language text (e.g., movie reviews). This project demonstrates the adaptation of large language models to low-resource languages.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-50 mt-4">
+            <a href="https://github.com/El-amin/HauwBert-A-Transformer-Based-Model-For-Aspect-Based-Sentiment-Analysis-ABSA-" target="_blank" class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-1">
+              View Repository &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="px-2 py-0.5 text-xs font-semibold bg-green-50 text-green-800 rounded-full">Knowledge Distillation</span>
+              <span class="px-2 py-0.5 text-xs font-semibold bg-gray-50 text-gray-800 rounded-full">Edge AI</span>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Lightweight Pothole Detection</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4">
+              Part of an MS thesis, this project utilizes knowledge distillation techniques to train a lightweight convolutional neural network (CNN) for detecting potholes from highway imagery, enabling real-time deployment on resource-constrained embedded systems and IoT devices.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-50 flex items-center gap-4 mt-4">
+            <a href="https://github.com/El-amin/Pothole-Detection-Using-Deep-learning-Knowledge-Distillaton-Tecnique" target="_blank" class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-1">
+              View Repository &rarr;
+            </a>
+            <a href="https://github.com/El-amin/Pothole-Dataset" target="_blank" class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-1">
+              Dataset &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="px-2 py-0.5 text-xs font-semibold bg-blue-50 text-blue-800 rounded-full">Smart Agriculture</span>
+              <span class="px-2 py-0.5 text-xs font-semibold bg-red-50 text-red-800 rounded-full">TensorFlow</span>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Intelligent Plant Disease Detection</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4">
+              An implementation of a deep learning system for smart hydroponic farming. It utilizes convolutional neural networks (CNNs) to analyze leaf images, detecting crop diseases early to improve agricultural yields in automated farming setups.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-50 mt-4">
+            <a href="https://github.com/El-amin/CNN-Based-Plant-Disease-Detection-Model" target="_blank" class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-1">
+              View Repository &rarr;
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
   </main>
-  <footer class="text-center py-4 text-sm text-gray-500">
+
+  <footer class="text-center py-6 mt-12 text-sm text-gray-500 border-t">
     &copy; 2025 Aminu Musa. All rights reserved.
   </footer>
 </body>
